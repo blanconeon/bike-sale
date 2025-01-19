@@ -1,0 +1,123 @@
+
+
+body {
+    background-color: #DC241E;
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  
+}    
+
+.img {
+    height:200px;
+    width:200px;
+    float:left;
+    margin-right: 20px
+
+}
+
+.main {margin-bottom: 500px;}
+
+
+
+.logo {
+    height:100px;
+    width:100px;
+}
+
+h1 { font-family:  "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+
+.rcard {float:right;
+width: 450px;
+height: 200px;
+display:flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+
+.lcard {float:left;
+    width: 450px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+      
+}
+
+.link {
+    color: white
+}
+
+.BH {
+    background-color: #DC241E;
+}
+
+.colnago {
+    background-color: #DC241E;
+}
+
+.e-bike {
+    background-color: #DC241E;
+}
+
+.santa-cruz  {
+    background-color: #DC241E;
+}
+
+.santacruz-2 {
+    background-color: #DC241E;
+}
+
+.madone {
+    background-color: #DC241E;
+}
+
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .lcard {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+
+    .rcard {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+  
+    img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
